@@ -14,6 +14,7 @@ const PostList = ({posts}) => {
             )
     });
 
+    
     return (
         <ul className="app-list list-group">
            {elements}
