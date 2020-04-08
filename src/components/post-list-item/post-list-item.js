@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 import './post-list-item.css';
 
 export default class PostListItem extends Component {
@@ -16,9 +17,6 @@ export default class PostListItem extends Component {
              important: !important
         }))
     }
-
-
-    
 
     render() {
         const {label} = this.props;

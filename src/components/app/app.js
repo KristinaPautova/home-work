@@ -3,7 +3,6 @@ import React from 'react';
 import AppHeader from '../app-header';
 import PostList from '../post-list';
 
-import './app.css';
 
 const App = () => {
 
@@ -15,7 +14,7 @@ const App = () => {
         {label: 'Научиться готовить', important: false, id: 3}
     ]
     return (
-       <div className="app">
+       <div>
             <AppHeader/>
             <PostList posts={data}/>
        </div>
